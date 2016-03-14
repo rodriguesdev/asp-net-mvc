@@ -16,10 +16,11 @@ namespace TreinaWeb.TesteASPNETMVC.Web.Controllers
         }
 
         [HttpPost]
-        public ActionResult Index(Pessoa pessoa)
+        public ActionResult Index([Bind(Exclude = "Ativo")]Pessoa pessoa)
         {
             if (ModelState.IsValid)
             {
+                pessoa.Ativo = true;
                 return View("Saudacao", pessoa);
             }
 

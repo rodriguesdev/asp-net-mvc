@@ -31,6 +31,8 @@ namespace TreinaWeb.TesteASPNETMVC.Web.Models
         public string Email { get; set; }
 
 
+        public bool Ativo { get; set; }
+
 
     }
 }
