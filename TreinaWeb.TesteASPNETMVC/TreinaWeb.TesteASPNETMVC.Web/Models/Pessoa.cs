@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TreinaWeb.TesteASPNETMVC.Web.Models
 {
-    class Pessoa
+    public class Pessoa
     {
         public string Nome { get; set; }
         public int Idade { get; set; }
