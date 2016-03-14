@@ -51,12 +51,17 @@
   <ItemGroup>
     <Compile Include="Context\MusicasDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TypeConfiguration\AlbumTypeConfiguration.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\TreinaWeb.Comum.Entity\TreinaWeb.Comum.Entity.csproj">
+      <Project>{4f34d5c1-4c85-411f-b63f-e3a6009b5d75}</Project>
+      <Name>TreinaWeb.Comum.Entity</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TreinaWeb.Musicas.Dominio\TreinaWeb.Musicas.Dominio.csproj">
       <Project>{9a0226c9-15f9-4510-b1b5-a7ad85ceeaf8}</Project>
       <Name>TreinaWeb.Musicas.Dominio</Name>
