@@ -16,6 +16,7 @@ namespace TreinaWeb.TesteASPNETMVC.Web.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Index([Bind(Exclude = "Ativo")]Pessoa pessoa)
         {
             if (ModelState.IsValid)
