@@ -1,4 +1,4 @@
-﻿
+﻿@model TreinaWeb.TesteASPNETMVC.Web.Models.Pessoa
 @{
     ViewBag.Title = "Saudacao";
 }
@@ -6,5 +6,10 @@
 <h2>Saudacao</h2>
 
 
-<p>Olá sejá bem- vindo @ViewBag.Mensagem</p>
+<p>Olá sejá bem- vindo @Model.Nome</p>
+@Html.Label("Idade: ")@Html.EditorFor(p => p.Idade)
+@Html.Label("Endereço: ")@Html.EditorFor(p => p.Endereco)
+
+
+
 

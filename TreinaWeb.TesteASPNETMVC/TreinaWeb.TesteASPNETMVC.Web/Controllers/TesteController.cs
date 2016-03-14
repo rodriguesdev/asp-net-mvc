@@ -18,8 +18,7 @@ namespace TreinaWeb.TesteASPNETMVC.Web.Controllers
         [HttpPost]
         public ActionResult Index(Pessoa pessoa)
         {
-            ViewBag.PessoaInformada = pessoa;
-            return View("Saudacao");
+            return View("Saudacao",pessoa);
         }
     }
 }

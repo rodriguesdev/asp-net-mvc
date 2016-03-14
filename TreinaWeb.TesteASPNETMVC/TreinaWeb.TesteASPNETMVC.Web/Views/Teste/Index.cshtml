@@ -11,11 +11,11 @@
     @using (Html.BeginForm("Index", "Teste", FormMethod.Post))
     {
         @Html.LabelFor(p => p.Nome)
-        @Html.TextBoxFor(p => p.Nome, new {id="txtNome" })
+        @Html.EditorFor(p => p.Nome, new {id="txtNome" })
         @Html.LabelFor(p => p.Idade)
-        @Html.TextBoxFor(p => p.Idade)
+        @Html.EditorFor(p => p.Idade)
         @Html.LabelFor(p => p.Endereco)
-        @Html.TextBoxFor(p => p.Endereco)
+        @Html.EditorFor(p => p.Endereco)
         <input type="submit" value="Enviar" />
     }
 
