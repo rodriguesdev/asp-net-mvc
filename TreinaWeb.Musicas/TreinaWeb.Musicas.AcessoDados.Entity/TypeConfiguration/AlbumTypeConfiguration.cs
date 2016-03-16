@@ -8,7 +8,7 @@ using TreinaWeb.Comum.Entity;
 
 namespace TreinaWeb.Musicas.AcessoDados.Entity.TypeConfiguration
 {
-    class AlbumTypeConfiguration : TreinaWebAbstractConfig<Album>
+    class AlbumTypeConfiguration : TreinaWebEntityAbstractConfig<Album>
     {
         protected override void ConfigurarCamposTabela()
         {

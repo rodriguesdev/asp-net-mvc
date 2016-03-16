@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace TreinaWeb.Comum.Entity
 {
-    public abstract class TreinaWebAbstractConfig<TEntidade> : EntityTypeConfiguration<TEntidade>
+    public abstract class TreinaWebEntityAbstractConfig<TEntidade> : EntityTypeConfiguration<TEntidade>
         where TEntidade : class
     {
-        public TreinaWebAbstractConfig()
+        public TreinaWebEntityAbstractConfig()
         {
             ConfigurarNomeTabela();
             ConfigurarCamposTabela();
