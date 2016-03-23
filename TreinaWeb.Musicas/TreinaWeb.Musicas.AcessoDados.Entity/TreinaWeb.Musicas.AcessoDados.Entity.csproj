@@ -54,6 +54,10 @@
     <Compile Include="Migrations\201603142124386_MigracaoInicial.Designer.cs">
       <DependentUpon>201603142124386_MigracaoInicial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201603181228072_AdicaoEmailAlbum.cs" />
+    <Compile Include="Migrations\201603181228072_AdicaoEmailAlbum.Designer.cs">
+      <DependentUpon>201603181228072_AdicaoEmailAlbum.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TypeConfiguration\AlbumTypeConfiguration.cs" />
@@ -75,6 +79,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201603142124386_MigracaoInicial.resx">
       <DependentUpon>201603142124386_MigracaoInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201603181228072_AdicaoEmailAlbum.resx">
+      <DependentUpon>201603181228072_AdicaoEmailAlbum.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
