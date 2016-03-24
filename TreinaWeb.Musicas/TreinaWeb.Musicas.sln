@@ -15,6 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinaWeb.Musicas.AcessoDad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinaWeb.Comum.Entity", "TreinaWeb.Comum.Entity\TreinaWeb.Comum.Entity.csproj", "{4F34D5C1-4C85-411F-B63F-E3A6009B5D75}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositorios", "Repositorios", "{A9416328-2D56-4505-A260-23B3F28E34E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinaWeb.Repositorios.Comum", "TreinaWeb.Repositorios.Comum\TreinaWeb.Repositorios.Comum.csproj", "{16EEB854-BD9D-4AA9-920A-B34BEA90393D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinaWeb.Repositorios.Comum.Entity", "TreinaWeb.Repositorios.Comum.Entity\TreinaWeb.Repositorios.Comum.Entity.csproj", "{CD3B199B-73C2-4709-A3ED-AE25CD9F4156}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +43,14 @@ Global
 		{4F34D5C1-4C85-411F-B63F-E3A6009B5D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F34D5C1-4C85-411F-B63F-E3A6009B5D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F34D5C1-4C85-411F-B63F-E3A6009B5D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16EEB854-BD9D-4AA9-920A-B34BEA90393D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16EEB854-BD9D-4AA9-920A-B34BEA90393D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16EEB854-BD9D-4AA9-920A-B34BEA90393D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16EEB854-BD9D-4AA9-920A-B34BEA90393D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD3B199B-73C2-4709-A3ED-AE25CD9F4156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD3B199B-73C2-4709-A3ED-AE25CD9F4156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD3B199B-73C2-4709-A3ED-AE25CD9F4156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD3B199B-73C2-4709-A3ED-AE25CD9F4156}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,5 +59,7 @@ Global
 		{9A0226C9-15F9-4510-B1B5-A7AD85CEEAF8} = {38DB1635-32A3-46AE-A39B-DF906157C6E7}
 		{5C3CA283-5167-4064-8088-763074FDB813} = {9CBF43F7-9E84-4270-98BD-B12CF8F28F1D}
 		{4F34D5C1-4C85-411F-B63F-E3A6009B5D75} = {9CBF43F7-9E84-4270-98BD-B12CF8F28F1D}
+		{16EEB854-BD9D-4AA9-920A-B34BEA90393D} = {A9416328-2D56-4505-A260-23B3F28E34E4}
+		{CD3B199B-73C2-4709-A3ED-AE25CD9F4156} = {A9416328-2D56-4505-A260-23B3F28E34E4}
 	EndGlobalSection
 EndGlobal
