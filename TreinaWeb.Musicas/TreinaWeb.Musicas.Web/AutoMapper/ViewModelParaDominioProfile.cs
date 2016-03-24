@@ -8,12 +8,11 @@ using TreinaWeb.Musicas.Web.ViewModels.Album;
 
 namespace TreinaWeb.Musicas.Web.AutoMapper
 {
-    public class DominioParaViewModelProfile : Profile
+    public class ViewModelParaDominioProfile : Profile
     {
         protected override void Configure()
         {
-            Mapper.CreateMap<Album, AlbumIndexViewModel>();
-            Mapper.CreateMap<Album, AlbumViewModel>();
+            Mapper.CreateMap<AlbumViewModel, Album>(); 
         }
     }
 }
