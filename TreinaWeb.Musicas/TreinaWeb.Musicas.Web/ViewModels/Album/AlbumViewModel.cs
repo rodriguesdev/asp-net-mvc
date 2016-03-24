@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using TreinaWeb.Musicas.Web.Annotations;
 
 namespace TreinaWeb.Musicas.Web.ViewModels.Album
 {
@@ -28,6 +29,7 @@ namespace TreinaWeb.Musicas.Web.ViewModels.Album
         [Required(ErrorMessage = "O e-mail é obrigatório")]
         [Display(Name = "E-mail")]
         [DataType(DataType.EmailAddress)]
+        [EmailTreinaWeb(ErrorMessage ="O e-mail deve ser do dominio TreinaWeb")]
         public string Email { get; set; }
     }
 }
